@@ -17,7 +17,7 @@ public class TestScripts extends MainDriver {
 	    		driver = new FirefoxDriver();
 	    		//String deployUrl=System.getProperty("url");
 	    		String deployUrl="http://192.168.103.30:8080/E2EMF/";
-	    	//	driver.manage().window().maximize();
+	    		driver.manage().window().maximize();
 	    		driver.get(deployUrl);
 	        		
 	}
