@@ -70,10 +70,10 @@ public class TestScripts extends MainDriver {
 		}
 		
 		@Test
-		public void planAndEstimation(){
+		public void collapseMenu(){
 			openBrowser();
 			login();
-			PlanAndEstimation.pe();
+			collapseMenu.Menu();
 			closeBrowser();
 		}
 		
