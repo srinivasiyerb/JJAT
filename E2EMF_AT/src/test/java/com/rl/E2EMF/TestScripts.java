@@ -69,14 +69,14 @@ public class TestScripts extends MainDriver {
 			 closeBrowser();
 		}
 		
-	/*	@Test
+		@Test
 		public void planAndEstimation(){
 			openBrowser();
 			login();
 			PlanAndEstimation.pe();
 			closeBrowser();
 		}
-*/		
+		
 		@Test
 		public void testLogout(){
 			openBrowser();
