@@ -5,8 +5,8 @@ import org.openqa.selenium.By;
 public class PlanAndEstimation extends MainDriver {
 
 	public static void pe(){
-		driver.findElement(By.xpath("//aside[@id='left-panel']/nav/ul/li[4]/a/span")).click();
-		driver.findElement(By.xpath("//a[contains(@href, '#')][3]")).click();
+		driver.findElement(By.xpath("(//a[contains(@href, '#')])[2]")).click();
+		driver.findElement(By.xpath("(//a[contains(@href, '#')])[3]")).click();
 		driver.findElement(By.xpath("//a[contains(@href, 'ajax/e2e_pom.html')]")).click();
 		driver.findElement(By.xpath("//a[contains(text(),'Outsourced Manufacturing')]")).click();
 		
