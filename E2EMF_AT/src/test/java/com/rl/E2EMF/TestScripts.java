@@ -45,7 +45,7 @@ public class TestScripts extends MainDriver {
 			closeBrowser();
 		}
 		
-		@Test
+	/*	@Test
 		public void flowDiagrams(){
 			openBrowser();
 			login();
@@ -60,7 +60,7 @@ public class TestScripts extends MainDriver {
 			Profiling.profiling();
 			 closeBrowser();
 		}
-
+*/
 		@Test
 		public void search(){
 			openBrowser();
