@@ -73,7 +73,7 @@ public class TestScripts extends MainDriver {
 		public void CollapseMenu(){
 			openBrowser();
 			login();
-			collapseMenu.Menu();
+			CollapseMenu.Menu();
 			closeBrowser();
 		}
 		
