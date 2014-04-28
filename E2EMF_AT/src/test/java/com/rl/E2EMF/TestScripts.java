@@ -76,7 +76,13 @@ public class TestScripts extends MainDriver {
 			PlanAndEstimation.pe();
 			closeBrowser();
 		}
-		
+		@Test
+		public void flowDiagrams(){
+			openBrowser();
+			login();
+			FlowDiagrams.fd();
+			closeBrowser();
+		}
 		@Test
 		public void testLogout(){
 			openBrowser();
