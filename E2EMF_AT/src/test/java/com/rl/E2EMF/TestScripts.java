@@ -31,7 +31,7 @@ public class TestScripts extends MainDriver {
 		public static void login(){
 
 			
-    		driver.findElement(By.xpath("//*[@id='username']")).sendKeys("jjuser");
+    		driver.findElement(By.id("username")).sendKeys("jjuser");
 			driver.findElement(By.id("password")).sendKeys("jjuser");
 			driver.findElement(By.xpath("//form[@id='login-form']/footer/button")).click();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
